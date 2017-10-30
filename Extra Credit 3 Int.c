@@ -3,11 +3,11 @@
 
 int main(void)
 {
-	int x = 0;
+	float x = 0;
 
-	printf("please enter an integer value:");
-	scanf("%d", &x);
-	printf("\nThe value entered was %d", x);
+	printf("please enter a float value:");
+	scanf("%f", &x);
+	printf("\nThe value entered was %f", x);
 
 	_getch();
 
